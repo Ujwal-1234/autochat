@@ -37,6 +37,7 @@ setInterval(()=>{
         if(xhr.readyState === XMLHttpRequest.DONE){
             if(xhr.status === 200){
                 let data = xhr.response;
+                console.log(data);
                 if(!searchBar.classList.contains("active")){
                     usersList.innerHTML=data;
                 }else{
