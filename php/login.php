@@ -12,13 +12,14 @@ if(!empty($email) && !empty($password)){
         $sql2 = mysqli_query($conn, "UPDATE users SET status = '{$status}' WHERE unique_id = {$row['unique_id']}");
         if($sql2){
             $_SESSION['unique_id'] =$row['unique_id'];
-            echo "success";
+            echo json_encode(["result"=>"success", "message"=>"logged in"]);
         }
     }else{
-        echo "Email or password is incorrect ! ";
+        echo json_encode(["result"=>"error", "message"=>"Email or password is incorrect!"]);
+ 
     }
 }else{
-    echo "All input field are required";
+    echo json_encode(["result"=>"error", "message"=>"All input field are required"]);
 }
 
 
