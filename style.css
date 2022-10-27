@@ -232,6 +232,28 @@ form .name-details .field:last-child{
 
 
 /*chat area css part*/
+.chat-area header .automode{
+    color: red;
+    font-variant: small-caps;
+    padding: 5px;
+    border: solid 1px black;
+    background-color: #a5a5a5;
+    margin-left: 100px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.chat-area header .automode:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+.chat-area header .automode:active{
+    background-color: green;
+    color: white;
+}
+
+
+
 .chat-area header{
     display: flex;
     align-items: center;

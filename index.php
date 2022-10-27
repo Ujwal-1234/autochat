@@ -8,7 +8,7 @@ require_once "header.php"
     <body>
         <div class="wrapper">
             <section class="form signup">
-                <header>Chat US</header>
+                <header>AUTOCHAT</header>
                 <form action="#" enctype="multipart/form-data">
                     <div class="error-txt"></div>
                     <div class="name-details">

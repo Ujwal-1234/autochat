@@ -4,7 +4,7 @@ require_once "header.php"
     <body>
         <div class="wrapper">
             <section class="form login">
-                <header>Chat US</header>
+                <header>AUTOCHAT</header>
                 <form action="#">
                     <div class="error-txt"></div>
                         <div class="field input">
